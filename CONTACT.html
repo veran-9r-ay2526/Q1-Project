@@ -117,19 +117,22 @@ header{
   border-radius: 10px;
 }
 
-input[type="submit"]:hover {
-  padding: 10px 15px;
-  margin-right: 10px;
+input[type="submit"] {
+  background-color: #322e2d;
+  color: #eea4bb;
   border: none;
-  border-radius: 5px;
+  padding: 12px 25px;
+  border-radius: 25px;
   cursor: pointer;
-  background-color: #b22222;
-  color: white;
-  font-weight: bold;
+  font-family: 'Carter One';
+  font-size: 18px;
+  height: 50px;
 }
 
 input[type="submit"]:hover {
-  background-color: #f230aa;
+  background-color: #eea4bb;
+  color: #322e2d;
+  border: 2px solid #322e2d;
 }
 </style>
 </head>
@@ -137,11 +140,11 @@ input[type="submit"]:hover {
 <body>
   
   <header>
-    <img src="logo.png" alt="logo" class="logo">
+    <img src="Images/logo.png" alt="logo" class="logo">
   </header>
 
   <audio controls autoplay loop>
-  <source src="BI.mp3" type="audio/mpeg">
+  <source src="Audio/BI.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
   </audio>
 
@@ -186,8 +189,8 @@ input[type="submit"]:hover {
         <label>
           <textarea name="Feedback" placeholder="Feedback here..."></textarea>
         </label>
-        
-<input type="submit" value="Submit Recommendation" onclick="confirmSubmission()">
+        <br>
+<input type="submit" value="Submit Feedback" onclick="confirmSubmission()">
 
 <script>
   function confirmSubmission() {
@@ -203,5 +206,4 @@ input[type="submit"]:hover {
 </footer>
 
 </body>
-
 </html>
