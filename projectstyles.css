@@ -41,7 +41,7 @@ header{
 }
 @font-face{
 	font-family:FuturaNewExtraBold;
-	src: url(Fonts/FuturaNewExtraBold-Reg.woff) format('woff');
+	src: url(FuturaNewExtraBold-Reg.woff) format('woff');
 
 }
 h4{
@@ -90,4 +90,5 @@ footer{
 	color: #f9efce;
 	text-align: center;
 	margin-top: 5px;
+
 }
